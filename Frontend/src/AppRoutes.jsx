@@ -3,6 +3,8 @@ import Layout from "./scenes/Layout";
 import Car from "./scenes/car";
 import FeaturedCars from "./scenes/morecarsss/morecars";
 import Suv from "./scenes/suv";
+import LoginPage from "./scenes/login";
+import SignupPage from "./scenes/signup";
 
 function AppRoutes() {
   return (
@@ -13,6 +15,9 @@ function AppRoutes() {
         <Route path="/car" element={<Car />} />
         <Route path="/morecar" element={<FeaturedCars />} />
         <Route path="/suvcar" element={<Suv />} />
+        <Route path="/loginn" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+
       </Routes>
     </div>
   );

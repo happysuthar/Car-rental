@@ -32,7 +32,7 @@ const Car = () => {
               <a href="#blog" className="navbar-link" data-nav-link>Blog</a>
             </li>
             <li>
-              <a href="#" className="navbar-link" data-nav-link>Favourite</a>
+              <a href="/loginn" className="navbar-link" data-nav-link>Favourite</a>
             </li>
           </ul>
         </nav>
@@ -45,7 +45,7 @@ const Car = () => {
             <IonIcon icon={carOutline} />
             <span id="aria-label-txt">Explore cars</span>
           </a>
-          <a href="/loginpage" className="btn user-btn" aria-label="Profile">
+          <a href="/loginn" className="btn user-btn" aria-label="Profile">
             <IonIcon icon={personOutline} />
           </a>
           <button className="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">

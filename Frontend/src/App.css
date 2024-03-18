@@ -1201,7 +1201,120 @@
 
     .footer-list:last-of-type { width: 33.33%; }
 
+    /* Login Page Styles */
+/* Styling for Login Page */
+/* Styling for Login Page with Green Theme */
+/* Styling for Login Page with Background Image */
+/* Styling for Login Page with Dark Theme */
+/* Styling for Login Page with Dark Theme */
+/* Styling for Login Page with Dark Theme and Green Gradient Background */
+/* Styling for Login Page with Dark Theme, Green Gradient Background, and Background Image */
+.login-pagee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('back5.jpg'); /* Dark green gradient background with background image */
+  background-size: cover, cover; /* Cover the entire background */
+  background-position: center, center; /* Center the background image */
+  
+}
+
+.login-containerr {
+  background-color: rgba(0, 0, 0, 0.989); /* Semi-transparent black background */
+  padding: 60px; /* Increased padding */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Darker shadow */
+  color: #fff; /* Text color */
+  width: 500px; /* Adjust the width */
+  
+}
+
+/* Other styles remain the same */
+
+.login-titlee {
+  text-align: center;
+  color: #fff; /* Text color */
+  font-size: 24px; /* Increased font size */
+}
+
+.form-labell {
+  display: block;
+  margin-bottom: 20px; /* Increased margin */
+  color: #fff; /* Text color */
+  font-size: 18px; /* Increased font size */
+}
+
+.form-inputt {
+  width: calc(100% - 24px); /* Adjusted width */
+  padding: 16px;
+  border: 2px solid #fff; /* White border */
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  color: #fff; /* Text color */
+  font-size: 18px; /* Increased font size */
+}
+
+.form-inputt::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Placeholder color */
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px; /* Increased margin */
+}
+
+.login-buttonn,
+.reset-buttonn,
+.signup-buttonn {
+  padding: 16px 32px; /* Increased padding */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+}
+
+.login-buttonn {
+  background-color: #123f14; /* Darker green */
+  color: #fff;
+}
+
+.login-buttonn:hover {
+  background-color: #359c43; /* Lighter green on hover */
+}
+
+.reset-buttonn {
+  background-color: #329730;
+  color: #fff;
+}
+
+.reset-buttonn:hover {
+  background-color: #29b437;
+}
+.signup-buttonn {
+  
+  color: #ffffff; /* Button text color */
+}
+.signup-buttonn:hover {
+  background-color: #29b437;}
+
+  .already-user {
+    margin-top: 10px;
+    margin-right: 10px; /* Adjust the right margin as needed */
+    margin-left: 10px; /* Adjust the left margin as needed */
+    transition: box-shadow 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .already-user:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green shadow effect on hover */
+  }
+  
+
+  }
+
+
 
     
 
-  }
+  
