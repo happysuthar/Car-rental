@@ -1,24 +1,5 @@
-  /*-----------------------------------*\
-    #style.css
-  \*-----------------------------------*/
-
-  /**
-  * copyright 2022 codewithsadee
-  */
-
-
-
-
-
-  /*-----------------------------------*\
-    #CUSTOM PROPERTY
-  \*-----------------------------------*/
 
   :root {
-
-    /**
-    * colors
-    */
 
     --pale-purple-pantone: hsl(262, 63%, 92%);
     --medium-sea-green: hsl(152, 63%, 43%);
@@ -45,10 +26,6 @@
 
     --gradient: linear-gradient(to top, var(--alice-blue-2), var(--alice-blue-3));
 
-    /**
-    * typography
-    */
-
     --ff-nunito: 'Nunito', sans-serif;
     --ff-open-sans: 'Open Sans', sans-serif;
 
@@ -63,42 +40,21 @@
     --fw-400: 400;
     --fw-600: 600;
 
-    /**
-    * transition
-    */
 
     --transition: 0.5s ease;
 
-    /**
-    * spacing
-    */
 
     --section-padding: 50px;
-
-    /**
-    * radius
-    */
 
     --radius-10: 10px;
     --radius-14: 14px;
     --radius-18: 18px;
 
-    /**
-    * shadow
-    */
 
     --shadow-1: 3px 3px 9px hsla(240, 14%, 69%, 0.2);
     --shadow-2: 3px 3px 9px hsla(204, 92%, 59%, 0.3);
 
   }
-
-
-
-
-
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
 
   *, *::before, *::after {
     margin: 0;
@@ -158,13 +114,6 @@
 
   ::-webkit-scrollbar-thumb:hover { background: hsla(219, 14%, 60%, 0.5); }
 
-
-
-
-
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
 
   .container { padding-inline: 15px; }
 
@@ -229,13 +178,6 @@
 
   .w-100 { width: 100%; }
 
-
-
-
-
-  /*-----------------------------------*\
-    #HEADER
-  \*-----------------------------------*/
 
   .header-contact { display: none; }
 
@@ -342,14 +284,6 @@
     pointer-events: all;
   }
 
-
-
-
-
-  /*-----------------------------------*\
-    #HERO
-  \*-----------------------------------*/
-
   .hero { padding-top: 120px; }
 
   .hero-title {
@@ -401,14 +335,6 @@
     margin: 20px;
     text-transform: uppercase;
   }
-
-
-
-
-
-  /*-----------------------------------*\
-    #FEATURED CAR
-  \*-----------------------------------*/
 
   .featured-car .title-wrapper {
     display: flex;
@@ -561,13 +487,6 @@
   }
 
 
-
-
-
-  /*-----------------------------------*\
-    #GET START
-  \*-----------------------------------*/
-
   .get-start .section-title { margin-bottom: 25px; }
 
   .get-start-list {
@@ -653,12 +572,6 @@
   .get-start-card .card-link:is(:hover, :focus)::before { width: 100%; }
 
 
-
-
-
-  /*-----------------------------------*\
-    #BLOG
-  \*-----------------------------------*/
 
   .blog .section-title { margin-bottom: 30px; }
 
@@ -747,14 +660,6 @@
 
   .has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 40px); }
 
-
-
-
-
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
-
   .footer {
     background: var(--alice-blue-4);
     color: var(--independence);
@@ -829,22 +734,7 @@
   .copyright > a:is(:hover, :focus) { color: var(--carolina-blue); }
 
 
-
-
-
-  /*-----------------------------------*\
-    #MEDIA QUERIES
-  \*-----------------------------------*/
-
-  /**
-  * responsive for large than 350px screen
-  */
-
   @media (min-width: 350px) {
-
-    /**
-    * FEATURED CAR
-    */
 
     .featured-car-card .card-list { grid-template-columns: 1fr 1fr; }
 
@@ -858,29 +748,14 @@
   }
 
 
-
-
-
-  /**
-  * responsive for large than 580px screen
-  */
-
   @media (min-width: 580px) {
 
-    /**
-    * REUSED STYLE
-    */
 
     .container {
       max-width: 540px;
       margin-inline: auto;
     }
 
-
-
-    /**
-    * HEADER
-    */
 
     .header-actions .btn span {
       display: block;
@@ -892,43 +767,13 @@
 
   }
 
-
-
-
-
-  /**
-  * responsive for large than 768px screen
-  */
-
   @media (min-width: 768px) {
 
-    /**
-    * CUSTOM PROPERTY
-    */
-
     :root {
-
-      /**
-      * typography
-      */
-
       --fs-1: 2.625rem;
-
     }
 
-
-
-    /**
-    * REUSED STYLE
-    */
-
     .container { max-width: 720px; }
-
-
-
-    /**
-    * HEADER
-    */
 
     .header-actions { gap: 30px; }
 
@@ -950,12 +795,6 @@
       color: var(--independence);
       font-size: var(--fs-7);
     }
-
-
-
-    /**
-    * HERO
-    */
 
     .hero {
       position: relative;
@@ -996,27 +835,9 @@
         opacity: 0.8;
       }
       
-
-
-    /**
-    * FEATURED CAR
-    */
-
     .featured-car-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-
-
-    /**
-    * GET START
-    */
-
     .get-start-list { grid-template-columns: 1fr 1fr; }
-
-
-
-    /**
-    * FOOTER
-    */
 
     .footer-brand { width: 100%; }
 
@@ -1035,45 +856,14 @@
 
   }
 
-
-
-
-
-  /**
-  * responsive for large than 992px screen
-  */
-
   @media (min-width: 992px) {
-
-    /**
-    * REUSED STYLE
-    */
-
     .container { max-width: 960px; }
 
-
-
-    /**
-    * HERO
-    */
-
     .hero .container { width: 100%; }
-
-
-
-    /**
-    * BLOG
-    */
 
     .blog .has-scrollbar { padding-bottom: 50px; }
 
     .blog .has-scrollbar > li { max-width: 450px; }
-
-
-
-    /**
-    * FOOTER
-    */
 
     .footer-list:not(:last-of-type) { width: 25%; }
 
@@ -1081,45 +871,13 @@
 
   }
 
-
-
-
-
-  /**
-  * responsive for large than 1200px screen
-  */
-
   @media (min-width: 1200px) {
-
-    /**
-    * CUSTOM PROPERTY
-    */
-
     :root {
-
-      /**
-      * typography
-      */
-
       --fs-1: 2.875rem;
       --fs-2: 2rem;
-
     }
 
-
-
-    /**
-    * REUSED STYLE
-    */
-
     .container { max-width: 1170px; }
-
-
-
-
-    /**
-    * HEADER
-    */
 
     .overlay,
     .nav-toggle-btn { display: none; }
@@ -1136,12 +894,6 @@
       display: flex;
       gap: 50px;
     }
-
-
-
-    /**
-    * HERO
-    */
 
     .hero { min-height: 100vh; }
 
@@ -1160,38 +912,14 @@
       text-transform: uppercase;
     }
 
-
-
-    /**
-    * FEATURED CAR 
-    */
-
     .featured-car-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
-
-
-    /**
-    * GET START
-    */
-
     .get-start-list { grid-template-columns: repeat(4, 1fr); }
-
-
-
-    /**
-    * BLOG
-    */
 
     .blog .has-scrollbar > li {
       max-width: 340px;
       scroll-snap-align: center;
     }
-
-
-
-    /**
-    * FOOTER
-    */
 
     .footer-brand { width: 33.33%; }
 
@@ -1206,74 +934,72 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('back5.jpg'); /* Dark green gradient background with background image */
-  background-size: cover, cover; /* Cover the entire background */
-  background-position: center, center; /* Center the background image */
+  background-image: url('back5.jpg'); 
+  background-size: cover, cover; 
+  background-position: center, center; 
   
 }
 
 .login-containerr {
-  background-color: rgba(0, 0, 0, 0.34); /* Semi-transparent black background */
-  padding: 60px; /* Increased padding */
+  background-color: rgba(0, 0, 0, 0.34); 
+  padding: 60px; 
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Darker shadow */
-  color: #fff; /* Text color */
-  width: 500px; /* Adjust the width */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); 
+  color: #fff; 
+  width: 500px; 
   
 }
 
-/* Other styles remain the same */
-
 .login-titlee {
   text-align: center;
-  color: #fff; /* Text color */
-  font-size: 24px; /* Increased font size */
+  color: #fff; 
+  font-size: 24px; 
 }
 
 .form-labell {
   display: block;
-  margin-bottom: 20px; /* Increased margin */
-  color: #fff; /* Text color */
-  font-size: 18px; /* Increased font size */
+  margin-bottom: 20px; 
+  color: #fff; 
+  font-size: 18px; 
 }
 
 .form-inputt {
-  width: calc(100% - 24px); /* Adjusted width */
+  width: calc(100% - 24px); 
   padding: 16px;
-  border: 2px solid #fff; /* White border */
+  border: 2px solid #fff; 
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
-  color: #fff; /* Text color */
-  font-size: 18px; /* Increased font size */
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #fff; 
+  font-size: 18px;
 }
 
 .form-inputt::placeholder {
-  color: rgba(255, 255, 255, 0.7); /* Placeholder color */
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .form-buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px; /* Increased margin */
+  margin-top: 30px; 
 }
 
 .login-buttonn,
 .reset-buttonn,
 .signup-buttonn {
-  padding: 16px 32px; /* Increased padding */
+  padding: 16px 32px; 
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 18px; /* Increased font size */
+  font-size: 18px;
 }
 
 .login-buttonn {
-  background-color: #123f14; /* Darker green */
+  background-color: #123f14; 
   color: #fff;
 }
 
 .login-buttonn:hover {
-  background-color: #359c43; /* Lighter green on hover */
+  background-color: #359c43; 
 }
 
 .reset-buttonn {
@@ -1286,99 +1012,90 @@
 }
 .signup-buttonn {
   
-  color: #ffffff; /* Button text color */
+  color: #ffffff; 
 }
 .signup-buttonn:hover {
   background-color: #29b437;}
 
   .already-user {
     margin-top: 10px;
-    margin-right: 10px; /* Adjust the right margin as needed */
-    margin-left: 10px; /* Adjust the left margin as needed */
-    transition: box-shadow 0.3s; /* Add transition for smooth effect */
+    margin-right: 10px;
+    margin-left: 10px; 
+    transition: box-shadow 0.3s;
   }
   
   .already-user:hover {
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green shadow effect on hover */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); 
 
 
   }
-  /* Styles for the login page container */
 .login-pageee {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('back5.jpg'); /* Dark green gradient background with background image */
-  background-size: cover, cover; /* Cover the entire background */
-  background-position: center, center; /* Center the background image */
+  background-image: url('back5.jpg'); 
+  background-size: cover, cover; 
+  background-position: center, center; 
   overflow: auto;
 }
 
-/* Styles for the login container */
 .login-containerrr {
-  background-color: rgba(0, 0, 0, 0.21); /* Semi-transparent black background */
-  padding: 20px; /* Increased padding */
+  background-color: rgba(0, 0, 0, 0.21); 
+  padding: 20px; 
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Darker shadow */
-  color: #fff; /* Text color */
-  width: 500px; /* Adjust the width */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); 
+  color: #fff; 
+  width: 500px; 
 }
 
-/* Styles for the login title */
 .login-titleee {
   text-align: center;
-  color: #fff; /* Text color */
-  font-size: 24px; /* Increased font size */
+  color: #fff;
+  font-size: 24px; 
 }
 
-/* Styles for form labels */
 .form-labelll {
   display: block;
-  margin-bottom:15px; /* Increased margin */
-  color: #fff; /* Text color */
-  font-size: 18px; /* Increased font size */
+  margin-bottom:15px; 
+  color: #fff; 
+  font-size: 18px; 
 }
 
-/* Styles for form inputs */
 .form-inputtt {
-  width: calc(100% - 24px); /* Adjusted width */
+  width: calc(100% - 24px); 
   padding: 12px;
-  border: 1px solid #fff; /* White border */
+  border: 1px solid #fff; 
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
-  color: #fff; /* Text color */
-  font-size: 18px; /* Increased font size */
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #fff; 
+  font-size: 18px; 
 }
 
-/* Styles for form input placeholders */
 .form-inputtt::placeholder {
-  color: rgba(255, 255, 255, 0.7); /* Placeholder color */
+  color: rgba(255, 255, 255, 0.7); 
 }
 
-/* Styles for form buttons */
 .login-buttonnn {
   margin-left: 10px;
-  padding: 12px 180px; /* Increased padding */
+  padding: 12px 180px; 
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 18px; /* Increased font size */
+  font-size: 18px; 
 }
 
-/* Styles for login button */
 .login-buttonnn {
-  background-color: #123f14; /* Darker green */
+  background-color: #123f14;
   color: #fff;
 }
 
-/* Hover styles for login button */
 .login-buttonnn:hover {
-  background-color: #359c43; /* Lighter green on hover */
+  background-color: #359c43; 
 }
 .chumma{
   color: #dcdcdc;
 }
-/* Styles for reset button */
+
 
 
 

@@ -554,7 +554,7 @@ const Car = () => {
               </li>
             </ul>
             <p className="copyright">
-              &copy; 2024 <a href="#">Happy suthar</a>. All Rights Reserved
+              &copy; 2024 <a href="#">Drivex</a>. All Rights Reserved
             </p>
           </div>
         </div>

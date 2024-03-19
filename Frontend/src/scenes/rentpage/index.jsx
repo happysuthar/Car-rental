@@ -4,7 +4,7 @@ function CarBookingForm() {
   return (
     <div className="login-pageee">
       <div className="login-containerrr">
-        <h2 className="login-titleee">Car Booking Form</h2>
+        <h2 className="login-titleee">Book Car</h2>
         <form className="login-formmm">
           <div className="form-grouppp">
             <label htmlFor="fullName" className="form-labelll">Full Name</label>
