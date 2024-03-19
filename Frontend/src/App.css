@@ -929,26 +929,43 @@
 
     .footer-list:last-of-type { width: 33.33%; }
 
-.login-pagee {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image: url('back5.jpg'); 
-  background-size: cover, cover; 
-  background-position: center, center; 
-  
-}
-
-.login-containerr {
-  background-color: rgba(0, 0, 0, 0.34); 
-  padding: 60px; 
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); 
-  color: #fff; 
-  width: 500px; 
-  
-}
+    .login-pagee {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('back5.jpg'); 
+      background-size: cover, cover; 
+      background-position: center, center; 
+      backdrop-filter: blur(px); /* Adjust the blur intensity as needed */
+    }
+    
+    .login-containerr {
+      background-color: rgba(0, 0, 0, 0.34); 
+      padding: 60px; 
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); 
+      color: #fff; 
+      width: 500px;
+      opacity: 0; /* Start with 0 opacity */
+      transition: opacity 0.5s ease; /* Apply transition */
+    }
+    
+    /* Fade in effect */
+    .login-containerr.fade-in {
+      opacity: 1;
+    }
+    .fade-in-element {
+      opacity: 0; /* Start with 0 opacity */
+      transform: translateX(-20px); /* Move element off-screen to the left */
+      transition: opacity 2s ease, transform 2s ease; /* Apply transition */
+    }
+    
+    .fade-in {
+      opacity: 1;
+      transform: translateX(0); /* Move element back to its original position */
+    }
+    
 
 .login-titlee {
   text-align: center;
@@ -1029,69 +1046,80 @@
 
 
   }
+/* Add this CSS code to your existing CSS file or create a new one */
+
+/* Dark theme */
 .login-pageee {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('back5.jpg'); 
-  background-size: cover, cover; 
-  background-position: center, center; 
+  background-image: url('back5.jpg');
+  background-size: cover;
+  background-position: center;
   overflow: auto;
 }
 
 .login-containerrr {
-  background-color: rgba(0, 0, 0, 0.21); 
-  padding: 20px; 
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background color */
+  padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); 
-  color: #fff; 
-  width: 500px; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 500px;
 }
 
 .login-titleee {
   text-align: center;
   color: #fff;
-  font-size: 24px; 
+  font-size: 24px;
 }
 
 .form-labelll {
   display: block;
-  margin-bottom:15px; 
-  color: #fff; 
-  font-size: 18px; 
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 18px;
 }
 
 .form-inputtt {
-  width: calc(100% - 24px); 
+  width: calc(100% - 24px);
   padding: 12px;
-  border: 1px solid #fff; 
+  border: 1px solid #fff;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.1); 
-  color: #fff; 
-  font-size: 18px; 
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 18px;
 }
 
 .form-inputtt::placeholder {
-  color: rgba(255, 255, 255, 0.7); 
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .login-buttonnn {
   margin-left: 10px;
-  padding: 12px 180px; 
+  padding: 12px 180px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 18px; 
-}
-
-.login-buttonnn {
+  font-size: 18px;
   background-color: #123f14;
   color: #fff;
 }
 
 .login-buttonnn:hover {
-  background-color: #359c43; 
+  background-color: #359c43;
 }
+.fade-in-element {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .chumma{
   color: #dcdcdc;
 }
