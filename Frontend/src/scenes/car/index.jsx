@@ -31,9 +31,7 @@ const Car = () => {
             <li>
               <a href="#blog" className="navbar-link" data-nav-link>Blog</a>
             </li>
-            <li>
-              <a href="/loginn" className="navbar-link" data-nav-link>Favourite</a>
-            </li>
+            
           </ul>
         </nav>
         <div className="header-actions">
@@ -141,12 +139,11 @@ const Car = () => {
                 </ul>
 
                 <div className="card-price-wrapper">
-                  <p className="card-price"><strong>$600</strong> / month</p>
-                  <button className="btn fav-btn" aria-label="Add to favourite list">
-                    <IonIcon icon={heartOutline} />
-                  </button>
-                  <button className="btn">Rent now</button>
+                <p className="card-price"><strong>$600</strong> / month</p>
+                
+                <a href="/rent" className="btn">Rent now</a>
                 </div>
+
               </div>
             </div>
           </li>
@@ -192,11 +189,9 @@ const Car = () => {
 
                 <div className="card-price-wrapper">
                   <p className="card-price"><strong>$500</strong> / month</p>
-                  <button className="btn fav-btn" aria-label="Add to favourite list">
-                    <IonIcon icon={heartOutline} />
-                  </button>
-                  <button className="btn">Rent now</button>
-                </div>
+                 
+                  <a href="/rent" className="btn">Rent now</a> 
+                                 </div>
               </div>
             </div>
           </li>
@@ -242,10 +237,8 @@ const Car = () => {
 
                 <div className="card-price-wrapper">
                   <p className="card-price"><strong>$550</strong> / month</p>
-                  <button className="btn fav-btn" aria-label="Add to favourite list">
-                    <IonIcon icon={heartOutline} />
-                  </button>
-                  <button className="btn">Rent now</button>
+                 
+                  <a href="/rent" className="btn">Rent now</a>     
                 </div>
               </div>
             </div>

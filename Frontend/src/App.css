@@ -1201,14 +1201,6 @@
 
     .footer-list:last-of-type { width: 33.33%; }
 
-    /* Login Page Styles */
-/* Styling for Login Page */
-/* Styling for Login Page with Green Theme */
-/* Styling for Login Page with Background Image */
-/* Styling for Login Page with Dark Theme */
-/* Styling for Login Page with Dark Theme */
-/* Styling for Login Page with Dark Theme and Green Gradient Background */
-/* Styling for Login Page with Dark Theme, Green Gradient Background, and Background Image */
 .login-pagee {
   display: flex;
   justify-content: center;
@@ -1221,7 +1213,7 @@
 }
 
 .login-containerr {
-  background-color: rgba(0, 0, 0, 0.989); /* Semi-transparent black background */
+  background-color: rgba(0, 0, 0, 0.34); /* Semi-transparent black background */
   padding: 60px; /* Increased padding */
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Darker shadow */
@@ -1308,10 +1300,93 @@
   
   .already-user:hover {
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green shadow effect on hover */
-  }
-  
+
 
   }
+  /* Styles for the login page container */
+.login-pageee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('back5.jpg'); /* Dark green gradient background with background image */
+  background-size: cover, cover; /* Cover the entire background */
+  background-position: center, center; /* Center the background image */
+  overflow: auto;
+}
+
+/* Styles for the login container */
+.login-containerrr {
+  background-color: rgba(0, 0, 0, 0.21); /* Semi-transparent black background */
+  padding: 20px; /* Increased padding */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Darker shadow */
+  color: #fff; /* Text color */
+  width: 500px; /* Adjust the width */
+}
+
+/* Styles for the login title */
+.login-titleee {
+  text-align: center;
+  color: #fff; /* Text color */
+  font-size: 24px; /* Increased font size */
+}
+
+/* Styles for form labels */
+.form-labelll {
+  display: block;
+  margin-bottom:15px; /* Increased margin */
+  color: #fff; /* Text color */
+  font-size: 18px; /* Increased font size */
+}
+
+/* Styles for form inputs */
+.form-inputtt {
+  width: calc(100% - 24px); /* Adjusted width */
+  padding: 12px;
+  border: 1px solid #fff; /* White border */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  color: #fff; /* Text color */
+  font-size: 18px; /* Increased font size */
+}
+
+/* Styles for form input placeholders */
+.form-inputtt::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Placeholder color */
+}
+
+/* Styles for form buttons */
+.login-buttonnn {
+  margin-left: 10px;
+  padding: 12px 180px; /* Increased padding */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+}
+
+/* Styles for login button */
+.login-buttonnn {
+  background-color: #123f14; /* Darker green */
+  color: #fff;
+}
+
+/* Hover styles for login button */
+.login-buttonnn:hover {
+  background-color: #359c43; /* Lighter green on hover */
+}
+.chumma{
+  color: #dcdcdc;
+}
+/* Styles for reset button */
+
+
+
+}
+
+  
+
+  
 
 
 
