@@ -937,7 +937,7 @@
       background-image: url('back5.jpg'); 
       background-size: cover, cover; 
       background-position: center, center; 
-      backdrop-filter: blur(px); /* Adjust the blur intensity as needed */
+      backdrop-filter: blur(px); 
     }
     
     .login-containerr {
@@ -947,23 +947,22 @@
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); 
       color: #fff; 
       width: 500px;
-      opacity: 0; /* Start with 0 opacity */
-      transition: opacity 0.5s ease; /* Apply transition */
+      opacity: 0; 
+      transition: opacity 0.5s ease; 
     }
     
-    /* Fade in effect */
     .login-containerr.fade-in {
       opacity: 1;
     }
     .fade-in-element {
-      opacity: 0; /* Start with 0 opacity */
-      transform: translateX(-20px); /* Move element off-screen to the left */
-      transition: opacity 2s ease, transform 2s ease; /* Apply transition */
+      opacity: 0; 
+      transform: translateX(-20px); 
+      transition: opacity 2s ease, transform 2s ease;
     }
     
     .fade-in {
       opacity: 1;
-      transform: translateX(0); /* Move element back to its original position */
+      transform: translateX(0); 
     }
     
 
@@ -1046,9 +1045,7 @@
 
 
   }
-/* Add this CSS code to your existing CSS file or create a new one */
 
-/* Dark theme */
 .login-pageee {
   display: flex;
   justify-content: center;

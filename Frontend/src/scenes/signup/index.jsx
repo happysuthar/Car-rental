@@ -2,11 +2,9 @@ import React, { useEffect } from 'react';
 
 function SignupPage() {
   useEffect(() => {
-    // Add the 'fade-in' class to each element after the component mounts
     const elements = document.querySelectorAll('.fade-in-element');
     elements.forEach((element, index) => {
-      // Delay each element's animation based on its index
-      const delay = index * 200; // Adjust delay timing as needed
+      const delay = index * 200;
       setTimeout(() => {
         element.classList.add('fade-in');
       }, delay);

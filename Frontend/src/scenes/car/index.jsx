@@ -334,7 +334,6 @@ const Car = () => {
     </div>
   </div>
 </li>
-{/* Repeat the same structure for other blog items */}
 
           <li>
             <div className="blog-card">

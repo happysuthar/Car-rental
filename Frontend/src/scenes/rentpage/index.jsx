@@ -4,7 +4,7 @@ function CarBookingForm() {
   useEffect(() => {
     const elements = document.querySelectorAll('.fade-in-element');
     elements.forEach((element, index) => {
-      const delay = index * 100; // Adjust delay timing as needed
+      const delay = index * 100; 
       setTimeout(() => {
         element.classList.add('fade-in');
       }, delay);
